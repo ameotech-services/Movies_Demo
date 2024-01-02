@@ -1,0 +1,523 @@
+@media only screen and (max-width: 575.98px) { 
+    .App::before{
+      height: 0;
+    }
+  
+    .page_outer {
+      padding-bottom: 0;
+    }
+  
+    .container_page{
+      height: 100%;
+    }
+  
+    .movie_list_outer{
+      flex-grow: 1;
+    }
+  
+    .movie_list{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .inner_container {
+      max-width: 460px;
+    }
+  
+    .header_title {
+      font-size: 25px;
+    }
+  
+    .header_title_img {
+      height: 28px;
+      width: 28px;
+    }
+  
+    .header_right_elem img {
+      height: 28px;
+      width: 28px;
+    }
+  
+    .header_right_lbl {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  
+    .inner_container{
+      padding: 0 15px;
+    }
+  
+    .auth_heading{
+      font-size: 45px;
+      margin-bottom: 35px;
+    }
+  
+    .btn_global, .btn_outlined {
+      height: 44px;
+      margin-bottom: 15px;
+    }
+  
+    .btn_common {
+      border-radius: 7px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  
+    .input_box {
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 13px;
+      height: 44px;
+    }
+  
+    .toggle_pass_img {
+      right: 10px;
+      height: 22px;
+      width: 22px;
+    }
+  
+    .toggle_pass_img img {
+      margin-bottom: 4px;
+    }
+  
+    .remember_wrapper .lbl_remember {
+      font-size: 12px;
+    }
+  
+    .remember_wrapper .checkbox {
+      height: 16px;
+      width: 16px;
+    }
+  
+    .remember_wrapper .checkbox::before {
+      width: 15px;
+      height: 15px;
+    }
+  
+    .remember_wrapper {
+      gap: 5px;
+      margin-bottom: 16px;
+    }
+  
+    .input_wrapper {
+      margin: 0 0 16px 0; 
+    }
+  
+    .inner_page{
+      padding: 0 15px;
+    }
+  
+    .page_title {
+      font-size: 30px;
+      padding: 15px 0 25px 0;
+      text-align: center;
+    }
+  
+    .file_selector_wrapper {
+      position: relative;
+      width: 100%;
+      height: 190px;
+      margin-bottom: 25px;
+    }
+  
+    .file_selector_input {
+      max-width: 190px;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  
+    .preview_img_placeholder {
+      left: 50%;
+      height: 100%;
+      transform: translate(-50%, 0);
+      border-radius: 7px;
+    }
+  
+    .preview_img {
+      border-radius: 7px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  
+    .publish_year_outer{
+      width: 100%;
+    }
+  
+    .header {
+      padding: 20px 0;
+    }
+  
+    .pagination_wrapper {
+      padding: 25px 0;
+    }
+  
+    .pagination_wrapper .btn_prev_next{
+      font-size: 14px;
+    }
+  
+    .pagination_wrapper .page_no{
+      height: 28px;
+      width: 28px;
+    }
+  
+    .movie_outer {
+      /* background: #092C39; */
+      border-radius: 8px;
+      padding: 8px 8px 12px 8px;
+      display: flex;
+      flex-direction: column;
+      height: 450px;
+      margin-bottom: 18px;
+    }
+  
+    .movie_poster{
+      border-radius: 8px;
+    }
+  
+    .empty_body .empty_title{
+      font-size: 33px;
+    }
+}
+  
+@media only screen and (min-width: 576px) and (max-width: 767.98px) { 
+  
+    .App::before{
+      height: 85px;
+    }
+  
+    .inner_container {
+      max-width: 520px;
+      padding: 0 15px;
+    }
+  
+    .auth_heading {
+      font-size: 52px;
+      margin-bottom: 35px;
+    }
+  
+    .btn_global, .btn_outlined {
+      height: 45px;
+      margin-bottom: 15px;
+    }
+  
+    .btn_common {
+      border-radius: 9px;
+      font-size: 15px;
+    }
+  
+    .input_box {
+      border-radius: 9px;
+      padding: 10px 13px;
+      font-size: 13px;
+      height: 44px;
+    }
+  
+    .input_wrapper {
+      margin: 0 0 20px 0;
+    }
+  
+    .remember_wrapper {
+      margin-bottom: 20px;
+    }
+  
+    .movie_title {
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+  
+    .publishing_year {
+      font-size: 12px;
+    }
+  
+    .inner_page{
+      padding: 0 15px;
+    }
+  
+    .page_title {
+      font-size: 35px;
+      padding: 20px 0 30px 0;
+      text-align: center;
+    }
+  
+    .file_selector_wrapper {
+      position: relative;
+      width: 100%;
+      height: 210px;
+      margin-bottom: 25px;
+    }
+  
+    .file_selector_input {
+      max-width: 210px;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  
+    .preview_img_placeholder {
+      left: 50%;
+      height: 100%;
+      transform: translate(-50%, 0);
+      border-radius: 7px;
+    }
+  
+    .preview_img {
+      border-radius: 7px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  
+    .publish_year_outer{
+      width: 100%;
+    }
+  
+    .App::before{
+      height: 0;
+    }
+  
+    .header {
+      padding: 20px 0;
+    }
+  
+    .header_title {
+      font-size: 32px;
+    }
+  
+    .header_title_img {
+      height: 28px;
+      width: 28px;
+    }
+  
+    .page_outer{
+      padding-bottom: 0;
+    }
+  
+    .container_page {
+      height: 100%;
+    }
+  
+    .movie_list{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+  
+    .movie_list_outer{
+      flex-grow: 1;
+    }
+  
+    .pagination_wrapper {
+      padding: 25px 0;
+    }
+  
+    .pagination_wrapper .btn_prev_next{
+      font-size: 14px;
+    }
+  
+    .pagination_wrapper .page_no{
+      height: 28px;
+      width: 28px;
+    }
+  
+    .movie_outer {
+      /* background: #092C39; */
+      border-radius: 8px;
+      padding: 8px 8px 12px 8px;
+      display: flex;
+      flex-direction: column;
+      height: 450px;
+      margin-bottom: 18px;
+    }
+  
+    .movie_poster{
+      border-radius: 8px;
+    }
+  
+    .empty_body .empty_title {
+      font-size: 37px;
+      margin-bottom: 30px;
+    }
+}
+  
+@media only screen and (min-width: 768px) and (max-width: 991.98px) { 
+    .App::before{
+      height: 85px;
+    }
+  
+    .auth_heading {
+      font-size: 57px;
+    }
+  
+    .btn_global, .btn_outlined{
+      height: 49px;
+    }
+  
+    .btn_common{
+      font-size: 15px;
+    }
+  
+    .inner_page{
+      padding: 0 15px;
+    }
+  
+    .page_title {
+      font-size: 42px;
+      padding: 25px 0 50px 0;
+    }
+  
+    .file_selector_wrapper {
+      height: 300px;
+    }
+  
+    .file_selector_input {
+      max-width: 400px;
+      left: 0;
+    }
+  
+    .preview_img_placeholder {
+      width: 95%;
+      height: auto;
+    }
+  
+    .publish_year_outer{
+      width: 50%;
+    }
+  
+    .header {
+      padding: 25px 0;
+    }
+  
+    .header_title {
+      font-size: 35px;
+    }
+  
+    .header_title_img {
+      height: 28px;
+      width: 28px;
+    }
+  
+    .page_outer{
+      padding-bottom: 0;
+    }
+  
+    .container_page {
+      height: 100%;
+    }
+  
+    .movie_list{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+  
+    .movie_list_outer{
+      flex-grow: 1;
+    }
+  
+    .pagination_wrapper {
+      padding: 25px 0 90px 0;
+    }
+  
+    .pagination_wrapper .btn_prev_next{
+      font-size: 14px;
+    }
+  
+    .pagination_wrapper .page_no{
+      height: 28px;
+      width: 28px;
+    }
+  
+    .movie_outer {
+      /* background: #092C39; */
+      border-radius: 8px;
+      padding: 8px 8px 12px 8px;
+      display: flex;
+      flex-direction: column;
+      height: 450px;
+      margin-bottom: 18px;
+    }
+  
+    .movie_poster{
+      border-radius: 8px;
+    }
+}
+  
+  
+  
+@media only screen and (min-width: 992px) and (max-width: 1199.98px){
+    .App::before {
+      height: 75px;
+      background-size: 100% 75px;
+    }
+  
+    .btn_global, .btn_outlined {
+      height: 49px;
+    }
+  
+    .inner_page{
+      padding: 0 15px;
+    }
+  
+    .page_title {
+      font-size: 40px;
+      padding: 35px 0 45px 10px;
+    }
+  
+    .file_selector_wrapper {
+      height: 360px;
+    }
+  
+    .publish_year_outer{
+      width: 50%;
+    }
+}
+  
+  
+  
+  
+  
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px){
+    .App::before {
+      height: 90px;
+      background-size: 100% 90px;
+    }
+  
+    .btn_global, .btn_outlined {
+      height: 49px;
+    }
+    
+    .inner_page{
+      padding: 0 15px;
+    }
+  
+    .page_title {
+      font-size: 45px;
+      padding: 35px 0;
+    }
+  
+    .file_selector_wrapper {
+      height: 370px;
+    }
+  
+    .publish_year_outer{
+      width: 50%;
+    }
+}
+  
+  
+  
+@media only screen and (min-width: 1400px){
+    .App::before {
+        height: 90px;
+        background-size: 100% 90px;
+    }
+
+    .publish_year_outer{
+        width: 50%;
+    }
+
+    .file_selector_wrapper {
+        height: 450px;
+    }
+}
